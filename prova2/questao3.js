@@ -14,4 +14,4 @@ if (a < b){
   }
 } console.log("A soma de todos os números entre", a, "e", b, "é:", soma)
 
-//bÉDIO CORRETO! A diferença entre o codigo correto e o beu é que eu coloquei "i!=b/a" e era pra por >= ou <=, isso consequentebente afeta a soba que eu coloquei (soba += a +1) e era pra por so "soba += i", poreb a logica está correta!
+//MÉDIO CORRETO! A diferença entre o codigo correto e o meu é que eu coloquei "i!=b/a" e era pra por >= ou <=, isso consequentebente afeta a soma que eu coloquei (soma += a +1) e era pra por so "soma += i", porem a logica está correta!
