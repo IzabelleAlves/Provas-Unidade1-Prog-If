@@ -2,13 +2,13 @@
 // parâmetro n, e retorna a soma dos somaDosQuadradoss dos n (intervalo inclusivo) primeiros
 // números positivos.
 
-function numPositivosJS(n){
+function numPositivos(n: number): number{
   let somaDosQuadrados = 0
   for (let i = 1; i <= n; i++){
-    somaDosQuadrados += i * i
+    somaDosQuadrados += i**2
     } 
     return somaDosQuadrados
   }
-  console.log(numPositivosJS(10))
+  console.log(numPositivos(10))
 
   //CORRETA

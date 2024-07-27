@@ -2,9 +2,9 @@
 // e n “Y” intercalados. Exemplo, para n = 3, o retorno deve ser “XYXYXY”. Comente cada
 // uma das modificações feitas.
 
-function inverter(n){
-  let resultado = ''
-  let contador = 0
+function inverter(n: number) : string {
+  let resultado: string = ''
+  let contador: number = 0
 
   while (contador < n){
     for (let i = 1; i < n; i++){
