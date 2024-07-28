@@ -5,11 +5,10 @@
 function zeros(n) {
   let s = ""
 
-    for (let i = n; i > 0; i--) {
-      s += "0"
+    for (let i = 0; i < n; i++) {
+      s += 0
     }
 
     return s
 }
 console.log(zeros(6))
-//ERREI
