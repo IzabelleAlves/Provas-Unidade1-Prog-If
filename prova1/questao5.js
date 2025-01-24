@@ -13,7 +13,4 @@ function xyz(a, b, c) {
     }
   }
 }
-console.log(xyz(1, 2, true))
-
-//ERREI. Minha saída no console: 1 2 true | 12 0 true | 12 0 true ||| saída correts: 1 2 true | 2 0 true | 12 -12 true
-//sempre que 0 for subtrair algum número, esse outro número ficará negativo. Ex: 0 - 12 = -12
+console.log(xyz(1, 2, true));

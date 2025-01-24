@@ -7,10 +7,8 @@ function numeros(n) {
       console.log(i);
     } else if (i >= 0 && i % 2 == 0) {
       console.log(i);
-    } 
+    }
     i++;
   }
 }
-console.log(numeros(6))
-
-//CORRETA!!!
+console.log(numeros(6));

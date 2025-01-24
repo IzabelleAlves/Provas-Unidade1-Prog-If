@@ -14,4 +14,4 @@ function xyz(a, b, c) {
 
 xyz(0, 7, 0);
 
-//ERREI. LEMBRAR: Todos os números que são subtraídos de zero tornam-se negativos!! REGRA DO SINAL: adição e subtração: sinais iguais = soma e repete o sinal; sinais diferentes: subtrai e repete o sinal do número maior! multiplicação: sinais iguais repete o sinal; sinais diferentes: negativo.
+//LEMBRAR: Todos os números que são subtraídos de zero tornam-se negativos!! REGRA DO SINAL: adição e subtração: sinais iguais = soma e repete o sinal; sinais diferentes: subtrai e repete o sinal do número maior! multiplicação: sinais iguais repete o sinal; sinais diferentes: negativo.
