@@ -1,7 +1,7 @@
 //5. Qual a saída no console do programa abaixo para a chamada xyz(1, 2, true)?
 
 function xyz(a, b, c) {
-  i = 1;
+  let i: number = 1;
   while (true) {
     console.log(a, b, c);
     a = a + i;

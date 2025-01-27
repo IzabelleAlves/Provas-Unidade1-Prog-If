@@ -2,13 +2,14 @@
 // contendo n zeros. Exemplo, para n = 6, o retorno deve ser “000000”. Comente cada uma
 // das modificações feitas.
 
-function zeros(n) {
-  let s = ""
+function zeros(n: number): string {
+  let s: string = "";
 
-    for (let i = 0; i < n; i++) {
-      s += 0
-    }
+  for (let i = 0; i < n; i++) {
+    s += "0";
+  }
 
-    return s
+  return s;
 }
-console.log(zeros(6))
+
+console.log(zeros(6));

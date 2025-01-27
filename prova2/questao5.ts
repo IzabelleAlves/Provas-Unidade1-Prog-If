@@ -9,7 +9,7 @@
 
 // mult(2, -5);
 
-function mult(a, b) {
+function mult(a: number, b: number): number {
   let resultado = a;
   for (let i = 1; i < Math.abs(b); i++) {
     resultado += a;
@@ -19,6 +19,7 @@ function mult(a, b) {
   }
   return resultado;
 }
+
 console.log(mult(2, -5));
 
 //alterações corretas:

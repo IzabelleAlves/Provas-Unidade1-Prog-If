@@ -1,7 +1,7 @@
 //5. Qual a saída no console do programa abaixo para a chamada akb(4,8)?
 
-function akb(s, k) {
-  e = true;
+function akb(s: number, k: number): void {
+  let e: boolean = true;
   while (e) {
     s = s * 10 + (k % 2);
     console.log(k % 2);
@@ -10,4 +10,5 @@ function akb(s, k) {
     console.log(s, k, e);
   }
 }
+
 akb(4, 8);

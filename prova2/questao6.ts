@@ -1,5 +1,5 @@
 // 6.Qual a saída no console do programa abaixo (valores impressos após a execução da linha 11 a cada iteração do laço)
-function xyz(a, b, c) {
+function xyz(a: number, b: number, c: number): void {
   for (let i = a; i < b; i = i - c) {
     if (b % 2 != 1) {
       b = b - i;

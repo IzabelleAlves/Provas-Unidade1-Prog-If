@@ -1,7 +1,7 @@
 //4.  Transforme sua resposta da questão 3 em um subprograma que recebe comoparâmetros os números do intervalo e retorna o valor da soma.
 
-function soma(a, b) {
-  let soma = 0;
+function soma(a: number, b: number): number {
+  let soma: number = 0;
   if (a < b) {
     for (let i = a; i <= b; i++) {
       soma += i;
@@ -11,6 +11,7 @@ function soma(a, b) {
       soma += i;
     }
   }
-  return `A soma de todos os números entre", ${a}, "e", ${b}, "é:", ${soma}`;
+  return soma;
 }
+
 console.log(soma(24, 12));
