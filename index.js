@@ -3,23 +3,21 @@
 // uma das modificações feitas.
 
 function inverter(n) {
-  let resultado = ''
-  let contador = 0
+  let resultado = "";
+  let contador = 0;
 
-  while (contador < n){
-    for (let i = 1; i < n; i++){
-      if(i % 2 != 0){
-        console.log(i % 2)
-        resultado += 'X'
+  while (contador < n) {
+    for (let i = 1; i < n; i++) {
+      if (i % 2 != 0) {
+        console.log(i % 2);
+        resultado += "X";
       } else {
-        resultado += 'Y'
-      } 
+        resultado += "Y";
       }
-    contador++
+    }
+    contador++;
   }
-  return resultado
+  return resultado;
 }
 
-console.log(inverter(3))
-
-//CORRETA
+console.log(inverter(3));
